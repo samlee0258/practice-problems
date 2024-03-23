@@ -23,9 +23,12 @@
     // Only change code below this line
     if (arr.indexOf(elem) >= 0) {
       return true;
-    } else {
-      return false;
     }
+    return false;
+
+    // Using ternary operator
+    return arr.indexOf(elem) >= 0 ? true : false;
+
     // Only change code above this line
   }
 
